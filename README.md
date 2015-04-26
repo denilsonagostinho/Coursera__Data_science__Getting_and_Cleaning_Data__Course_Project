@@ -25,4 +25,4 @@ The variables creates to store:
 * the averages for the txt files: `averages_data`
 
 #Output file
-The output file generated in the step 5 fo the script is named `averages_data.txt`.
+The output file generated in the step 5 of the script is named `averages_data.txt`
