@@ -4,7 +4,6 @@
 This repository hosts the R asked by the Course Project of the "Getting and Cleaning data" track, from the Data Science Course, available in Coursera.
 
 # How it works
-
 The file `run_analysis.R` is a R script witch have 5 steps:
 
 * In step 1, it use `rbind()` function to merge the similar data (same number of columns and same entities).
@@ -14,7 +13,7 @@ The file `run_analysis.R` is a R script witch have 5 steps:
 * In step 5, it generate a output file named `averages_data.txt` with the average measures for each subject and activity type.
 
 
-# Variables
+# Codebook
 The variables creates to store:
 * the data from files: `x_train`, `y_train`, `x_test`, `y_test` and `subject_train`
 * the merging of datasets: `x_data`, `y_data` and `subject_data`
@@ -24,5 +23,5 @@ The variables creates to store:
 * the merging of `x_data`, `y_data` and `subject_data`: `all_data`
 * the averages for the txt files: `averages_data`
 
-#Output file
+#Outputs
 The output file generated in the step 5 of the script is named `averages_data.txt`
