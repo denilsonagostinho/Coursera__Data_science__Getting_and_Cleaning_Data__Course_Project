@@ -1,6 +1,7 @@
-# Getting and Cleaning Data - Course Project
+## Getting and Cleaning Data - Course Project
 
-This repository hosts the R asked by the Course Project of the "Getting and Cleaning data" track, from the Data Science Course, available in Coursera.
+This repository hosts the R script (and other files) asked by the Course Project of the "Getting and Cleaning data" track, from the Data Science Course, available in Coursera.
+
 
 # How it works
 The file `run_analysis.R` is a R script witch have 5 steps:
@@ -13,14 +14,14 @@ The file `run_analysis.R` is a R script witch have 5 steps:
 
 
 # Codebook
-The variables creates to store:
-* the data from files: `x_train`, `y_train`, `x_test`, `y_test` and `subject_train`;
-* the merging of datasets: `x_data`, `y_data` and `subject_data`;
-* the correct names: `features`;
-* the comumn names: `mean_and_std_features`;
-* the activity names: `activities`;
-* the merging of `x_data`, `y_data` and `subject_data`: `all_data`;
-* the averages for the txt files: `averages_data`.
+* To store the data from files: `x_train`, `y_train`, `x_test`, `y_test` and `subject_train`;
+* To store the merging of datasets: `x_data`, `y_data` and `subject_data`;
+* To store the correct names: `features`;
+* To store the comumn names: `mean_and_std_features`;
+* To store the activity names: `activities`;
+* To store the merging of `x_data`, `y_data` and `subject_data`: `all_data`;
+* To store the averages for the txt files: `averages_data`.
+
 
 #Outputs
 The output file generated in the step 5 of the script is named `averages_data.txt`.
