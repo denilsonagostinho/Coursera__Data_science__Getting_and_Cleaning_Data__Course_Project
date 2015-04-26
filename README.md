@@ -5,7 +5,7 @@ This repository hosts the R asked by the Course Project of the "Getting and Clea
 
 # How it works
 
-The script run_analysis.R have 5 steps:
+The file `run_analysis.R` is a R script witch have 5 steps:
 
 * In step 1, it use `rbind()` function to merge the similar data (same number of columns and same entities).
 * In step 2, it take those columns with the mean and standard deviation measures, and it give the correct names according with `features.txt`.
